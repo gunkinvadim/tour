@@ -4,12 +4,12 @@ $(document).ready(function(){
         $('.overlay').animate(
             {
                 opacity: 'show'
-            }, 3000
+            }, 1000
         );
         $('.modal').animate(
             {
                 height: 'show'
-            }, 3000
+            }, 1000
         );
     });
 
@@ -17,13 +17,13 @@ $(document).ready(function(){
         $('.overlay').animate(
             {
                 opacity: 'hide'
-            }, 3000
+            }, 1000
         );
         $('.modal').animate(
             {
                 height: 'hide'
-            }, 3000
+            }, 1000
         );
     });
-    
+
 });
